@@ -7,6 +7,7 @@ import FormValidation from "./tasks/04_formValidation/FormValidation";
 import SearchFilter from "./tasks/05_searchFilter/SearchFilter";
 import ShowHideToggle from "./tasks/06_showHideToggle/ShowHideToggle";
 import Pagination from "./tasks/07_pagination/Pagination";
+import Clock from "./tasks/09_clock/Clock";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <FormValidation /> */}
       {/* <SearchFilter /> */}
       {/* <ShowHideToggle /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <Clock />
     </div>
   );
 }
