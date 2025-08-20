@@ -6,6 +6,7 @@ import PhotoGallery from "./tasks/03_fetchData/PhotoGallery";
 import FormValidation from "./tasks/04_formValidation/FormValidation";
 import SearchFilter from "./tasks/05_searchFilter/SearchFilter";
 import ShowHideToggle from "./tasks/06_showHideToggle/ShowHideToggle";
+import Pagination from "./tasks/07_pagination/Pagination";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <PhotoGallery /> */}
       {/* <FormValidation /> */}
       {/* <SearchFilter /> */}
-      <ShowHideToggle />
+      {/* <ShowHideToggle /> */}
+      <Pagination />
     </div>
   );
 }
