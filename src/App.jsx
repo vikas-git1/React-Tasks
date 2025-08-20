@@ -8,6 +8,7 @@ import SearchFilter from "./tasks/05_searchFilter/SearchFilter";
 import ShowHideToggle from "./tasks/06_showHideToggle/ShowHideToggle";
 import Pagination from "./tasks/07_pagination/Pagination";
 import Clock from "./tasks/09_clock/Clock";
+import DarkLightToggle from "./tasks/10_darkLightToggle/DarkLightToggle";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <SearchFilter /> */}
       {/* <ShowHideToggle /> */}
       {/* <Pagination /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <DarkLightToggle />
     </div>
   );
 }
